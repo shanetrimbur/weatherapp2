@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    ["import", { "libraryName": "antd", "style": true }, "antd"],
+    [
+      "import",
+      {
+        "libraryName": "@material-ui/core",
+        "libraryDirectory": "components", // default: lib
+        "camel2DashComponentName": false
+      },
+      "@material-ui"
+    ]
+  ],
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
